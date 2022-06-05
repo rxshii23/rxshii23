@@ -1,0 +1,73 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0%;
+}
+
+.username{
+    position: absolute;
+    right: 150px;
+    padding-top: 120px;
+    font-size: 25px;
+}
+
+.password{
+    position: absolute;
+    right: 150px;
+    padding-top: 160px;
+    font-size: 25px;
+}
+.log{
+    position: absolute;
+    right: 250px;
+    padding-top: 200px;
+    font-size: 45px;
+}
+.log button{
+    font-size: 20px;
+    color: white;
+    background-color: #93B5C6;
+}
+.heading{
+    position: absolute;
+    padding-left: 120px;
+    padding-top: 30px;
+    font-size: 60px;
+}
+.navbar{
+    /* position: absolute; */
+    right: 200px;
+    padding-left: 1400px;
+    background-color: #93B5C6;
+    
+
+}
+li{
+    display: inline;
+    padding-right: 12px;
+    font-size: 22px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+    width: 100px;
+}
+.links a{
+    letter-spacing: 2px;
+}
+.links li:hover{
+    background-color: #C9CCD5;
+}
+.image img{
+    height: 500px;
+    width: 700px;
+    padding-top: 130px;
+    padding-left: 90px;
+}
+.frm{
+    border: 2px;
+    border-color: black;
+}
