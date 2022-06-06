@@ -2,36 +2,33 @@ body{
     font-family: 'Times New Roman', Times, serif;
     margin: 0%;
 }
+.main1{
+    padding-left: 1200px;
+    padding-top: 300px;
+    border: 10px;
+    border-color: black;
+    border-width: 10px;
+    
+}
+.usr, .pass, .btn{
+    margin: 20px;
+    height: 100px;
+    width: 320px;
+    background-color: black;
 
-.username{
-    position: absolute;
-    right: 150px;
-    padding-top: 120px;
-    font-size: 25px;
 }
-
-.password{
-    position: absolute;
-    right: 150px;
-    padding-top: 160px;
-    font-size: 25px;
-}
-.log{
-    position: absolute;
-    right: 250px;
-    padding-top: 200px;
-    font-size: 45px;
-}
-.log button{
-    font-size: 20px;
-    color: white;
-    background-color: #93B5C6;
+.inp1{
+    height: 50px;
+    width: 220px;
+    font-size: larger;
+    
 }
 .heading{
     position: absolute;
+    
     padding-left: 120px;
-    padding-top: 30px;
-    font-size: 60px;
+    padding-top: 44px;
+    font-size: 70px;
 }
 .navbar{
     /* position: absolute; */
@@ -57,17 +54,10 @@ nav{
 }
 .links a{
     letter-spacing: 2px;
+    text-decoration: none;
 }
 .links li:hover{
     background-color: #C9CCD5;
 }
-.image img{
-    height: 500px;
-    width: 700px;
-    padding-top: 130px;
-    padding-left: 90px;
-}
-.frm{
-    border: 2px;
-    border-color: black;
-}
+
+
