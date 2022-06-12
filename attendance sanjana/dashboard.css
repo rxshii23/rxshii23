@@ -1,0 +1,14 @@
+body{
+    text-align: center;
+    /* background: linear-gradient(to right,red,orange); */
+}
+
+h1{
+    background-color: #28385E;
+    padding-top: 29px;
+    color: white;
+    padding-bottom: 15px;
+    margin: -10px;
+    font-size: 40px;
+}
+
