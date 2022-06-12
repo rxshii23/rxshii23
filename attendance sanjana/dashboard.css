@@ -1,6 +1,6 @@
 body{
     text-align: center;
-    /* background: linear-gradient(to right,red,orange); */
+    background: linear-gradient(to right,white,#516C8D);
 }
 
 h1{
@@ -12,3 +12,36 @@ h1{
     font-size: 40px;
 }
 
+.studentname{
+    padding-left: 5px;
+    width: 700px;
+    height: 30px;
+}
+.s-container{
+    padding-left: 50px;
+    padding-top: 50px; 
+    position: absolute;
+    left: 70px;
+}
+
+.rollno{
+    padding-left: 5px;
+    width: 500px;
+    height: 30px;
+}
+.r-container{
+    padding-top: 50px; 
+    position: absolute;
+    right: 140px;
+}
+
+.dropdownn{
+    padding-left: 5px;
+    width: 350px;
+    height: 30px;
+}
+.dropdown{
+    padding-top: 90px;
+    position: absolute;
+    left: 70px;
+}

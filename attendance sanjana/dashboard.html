@@ -4,11 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="dashboard.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <title>Dashboard Attendance System</title>
 </head>
 <body>
     <h1>
         Dashboard
     </h1>
+    <div class="s-container">
+        <form>
+            <input type="text" placeholder="Student Name" name="name" required class="studentname">
+        </form>
+    </div>
+    <div class="r-container">
+        <form>
+            <input type="text" placeholder="Student Roll No." name="rollno" required class="rollno">
+        </form>
+    </div>
+    <div class="dropdown">
+        <button class="dropdownn" type="button" data-toggle="dropdown">Course
+        <span class="caret"></span></button>
+        <ul class="dropdown-menu">
+          <li><a href="#">Mechanical</a></li>
+          <li><a href="#">Computer Science</a></li>
+          <li><a href="#">Information Technology</a></li>
+        </ul>
+    </div>
 </body>
 </html>
