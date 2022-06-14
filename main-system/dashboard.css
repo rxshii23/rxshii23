@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    min-height: 100vh;
+    background-image: url(/Images/102.jpg);
+    background-position: center;
+    background-size: cover;
+    backdrop-filter: blur(20px);
+    color: rgb(33, 33, 33);
+}
+
+h1 {
+    font-size: 70px;
+    padding-left: 120px;
+}
+.main-c{
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.2));
+}
+.s-container {
+    width: 300px;
+    height: 50px;
+    padding: 30px;
+}
+
+.r-container {
+    width: 300px;
+    height: 50px;
+    padding: 30px;
+}
+
+.studentname {
+    width: 300px;
+    height: 50px;
+}
+
+.rollno {
+    width: 300px;
+    height: 50px;
+}
+
+.dropdown {
+    padding: 30px;
+}
+
+.dropdownn-bt {
+    width: 300px;
+    height: 50px;
+    /* padding: 30px */
+}
+
+.dropdown-menu li a {
+    color: aliceblue;
+    list-style: none;
+
+}
+
+.dropdown-menu li {
+    color: aliceblue;
+    list-style: none;
+    padding: 5px;
+}
+
+.dropdown-menu li :hover {
+    background-color: snow;
+}
+
+.dropbox {
+    display: flex;
+    width: 400px;
+}
+
+.dropbox .box-container {
+    /* background-color: ; */
+    width: 100%;
+    transition: all 0.5s;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.box-container {
+    font-size: 25px;
+}
+
+.choose {}
+
+.dropbox .dropmenu .choose {
+    padding: 12px 24px;
+    cursor: pointer;
+}
+
+.dropbox label {
+    cursor: pointer;
+}
+
+.dropbox .choose:hover {
+    background-color: gray;
+}
+
+.dropbox .choose .radio {
+    display: none;
+}
+
+.dropbox .box-container .active {
+    max-height: 40px;
+    opacity: 1;
+    overflow-y: scroll;
+}

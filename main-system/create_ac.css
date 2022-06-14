@@ -1,0 +1,193 @@
+* {
+  box-sizing: border-box
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  min-height: 100vh;
+  background-image: url(/Images/102.jpg);
+  background-position: center;
+  background-size: cover;
+  backdrop-filter: blur(20px);
+  color: rgb(33, 33, 33);
+}
+
+/* Full-width input fields */
+input[type=text],
+input[type=password] {
+  width: 420px;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+  background-color: rgb(70, 170, 228);
+  outline: none;
+}
+
+ul {
+  text-align: center;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  /* background-color: #648b98; */
+  /* background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3)); */
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: rgb(33, 33, 33);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.6s;
+}
+li a:hover {
+  background-color: snow;
+  color: #648b98;
+}
+.top{
+  padding-left: 10px;
+  /* font-size: 30px; */
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.2));
+}
+.top h1{
+  font-size: 50px;
+}
+.topnav{
+  margin-bottom: -13px;
+  display: block;
+  /* text-align: center; */
+  /* height: 120px; */
+  margin-top: -34px;
+  margin-left: -9px;
+  margin-right: -9px;
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+
+}
+.topnav ul {
+  padding-left: 80%;
+  position: absolute;
+  top: 1%;
+  margin-top: -10px;
+  margin-left: -10px;
+  margin-right: -10px;
+  z-index: 10000;
+  
+}
+h2{
+  text-align: center;
+}
+/* p {
+  padding-left: 580px;
+}
+
+h1 {
+  padding-left: 720px;
+} */
+
+.sign1 {
+  padding-left: 726px;
+}
+
+
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Set a style for all buttons */
+/* button {
+  background-color: #509ac5;
+  color: white;
+  /* padding: 14px 20px; */
+  /* margin-left: auto;
+  margin-right: auto; */
+  /* margin: auto; */
+  /* padding: auto; */
+  /* justify-items: center; */
+  /* border: none;
+  cursor: pointer;
+  width: 120px;
+  height: 40px;
+} */ 
+
+
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Add padding to container elements */
+.container {
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px;
+  width: fit-content;
+  border: 1.5px solid snow;
+  border-radius: 30px;
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.2));
+}
+
+.container h1{
+  text-align: center;
+  padding: auto;
+  margin: auto;
+}
+.container h1{
+  text-align: center;
+}
+/* Clear floats */
+
+
+/* Change styles for cancel button and signup button on extra small screens */
+/* @media screen and (max-width: 300px) {
+
+  .cancelbtn,
+  .signupbtn {
+    width: 100%;
+  } */
+/* } */
+
+caption h2{
+text-align: center;
+}
+.container3{
+  
+  text-align: center;
+}
+.container3 button{
+  width: 180px;
+  text-align: center;
+  
+}
+button {
+  background-color: #509ac5;
+  color: white;
+  /* padding: 14px 20px; */
+  height: 40px;
+  /* margin: auto; */
+  border: none;
+  cursor: pointer;
+  width: 80%;
+  margin-top: 20px;
+  margin-left: 50px;
+  /* margin-right: auto; */
+}
+button:hover {
+  opacity: 0.8;
+  color: #129cec;
+  background-color: whitesmoke;
+}

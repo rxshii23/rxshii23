@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dashboard.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+    <title>Dashboard Attendance System</title>
+</head>
+
+<body>
+    <h1>
+        Dashboard
+    </h1>
+    <div class="main-c">
+
+        <div class="s-container">
+            <form>
+                <input type="text" placeholder="Student Name" name="name" class="studentname" required>
+            </form>
+        </div>
+        <div class="r-container">
+            <form>
+                <input type="text" placeholder="Student Roll No." name="rollno" class="rollno" required>
+            </form>
+        </div>
+        <div class="addbtn">
+            <button>Add Student</button>
+        </div>
+        <!-- <div class="dropdown">
+            <button class="dropdownn-bt" type="button" data-toggle="dropdown">Course
+                <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Mechanical</a></li>
+                    <li><a href="#">Computer Science</a></li>
+                    <li><a href="#">Information Technology</a></li>
+                </ul>
+            </div> -->
+        <div class="dropmenu">
+            Select a course
+        </div>
+        <div class="dropbox">
+            <div class="box-container active">
+                <div class="choose">
+                    <input type="radio" name="radio" id="mech">
+                    <label for="mech">Mechanical</label>
+                </div>
+                <div class="choose">
+                    <input type="radio" name="radio" id="cse">
+                    <label for="cse">Computer Science</label>
+                </div>
+                <div class="choose">
+                    <input type="radio" name="radio" id="it">
+                    <label for="it">Information Technology</label>
+                </div>
+                <div class="choose">
+                    <input type="radio" name="radio" id="civil">
+                    <label for="civil">Civil Enginneering</label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="student-list">
+        <table class="sl" border="3px">
+            <tr>
+                <th>Roll no</th>
+                <th>Student Name</th>
+                <th>Present/Absent</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Sanjana Kondalwade</td>
+                <td>
+                    <input type="radio" name="name">
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Ishwari Deshmukh</td>
+                <td>
+                    <input type="radio" name="name" id="">
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
