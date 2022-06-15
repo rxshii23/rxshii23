@@ -191,3 +191,7 @@ button:hover {
   color: #129cec;
   background-color: whitesmoke;
 }
+#result{
+  font-size: 40px;
+  text-align: center;
+}
