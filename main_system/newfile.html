@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Give the Attendance</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="topnav">
+        <div class="top">
+          <h1>Attendance System</h1>
+          <ul>
+            <li><a class="active" href="start.html">Home</a></li>
+            <li><a href="index.html">Login</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+    <form action="#" method="post" id="testForm">
+
+
+
+        <p>
+        <table id="checkbox_test">
+            <tr>
+                <th>Roll Numbers</th>
+                <th>Student Names</th>
+                <th>Check-List</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Rushikesh Deshmukh</td>
+                <td><input type="checkbox" class="inpcbx" name="1" value="1" /></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Sanjana Kondalwade</td>
+                <td><input type="checkbox" class="inpcbx" name="1" value="2" /></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Ishwari Deshmukh</td>
+                <td><input type="checkbox" class="inpcbx" name="1" value="3" /></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Maniratna Lohekar</td>
+                <td><input type="checkbox" class="inpcbx" name="1" value="4" /></td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Mansi Chavan</td>
+                <td><input type="checkbox" class="inpcbx" name="1" value="5" /></td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Amey Deshpande</td>
+                <td><input type="checkbox" class="inpcbx" name="1" value="6" /></td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Shreenath Verma</td>
+                <td><input type="checkbox" class="inpcbx" name="1" value="7" /></td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Rahul Shinde</td>
+                <td><input type="checkbox" class="inpcbx" name="1" value="8" /></td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Shreya Kulkarni</td>
+                <td><input type="checkbox" class="inpcbx" name="1" value="9" /></td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Ganesh Thakur</td>
+                <td><input type="checkbox" class="inpcbx" name="1" value="10" /></td>
+            </tr>
+        </table>
+        <!-- <label>1-Rushikesh Deshmukh </label><input type="checkbox" name="1" value="1" /> 
+            <br>
+            <label>2-Sanjana Kondalwade </label><input type="checkbox" name="1" value="2" /> 
+            <br>
+            <label>3-Ishwari Deshmukh </label><input type="checkbox" name="1" value="3" /> 
+            <br>
+            <label>4-Shreya Joshi </label><input type="checkbox" name="1" value="4" /> 
+            <br>
+            <label>5-Mansi Chavan </label><input type="checkbox" name="1" value="5" /> 
+            <br>
+            <label>6-Maniratna Lohekar </label><input type="checkbox" name="1" value="6" /> 
+            <br>
+            <label>7-Sourabh Matalkar </label><input type="checkbox" name="1" value="7" /> 
+            <br>
+            <label>8-Ganesh Thakur </label><input type="checkbox" name="1" value="8" /> 
+            <br>
+            <label>9-Dev Dubbewar </label><input type="checkbox" name="1" value="9" /> 
+            <br>
+            <label>10-Shubham Thakur </label><input type="checkbox" name="1" value="10" /> 
+            <br> -->
+
+        <p>
+            
+        <h2>Present Students Roll Numbers :</h2>
+        <input type="text" name="result" class="inp" readonly>
+        
+        </p>
+        
+
+
+    </form>
+    
+    <script type="text/javascript">
+        var form = document.getElementById('testForm');
+        var field = document.getElementById('checkbox_test');
+        var checkValue = field.getElementsByTagName('input');
+        var result = form.elements['result'];
+        var checkboxesChecked = [];
+        for (var i = 0, len = checkValue.length; i < len; i++) {
+            if (checkValue[i].type === 'checkbox') {
+                checkValue[i].onclick = my_script;
+                function my_script() {
+                    var form = this.form;
+                    var index = checkboxesChecked.indexOf(this.value);
+                    if (this.checked == true) {
+                        this.parentElement.classList.add("active");
+                        checkboxesChecked.push(this.value);
+                    } else {
+                        this.parentElement.classList.remove("active");
+                        if (index != -1) {
+                            checkboxesChecked.splice(index, 1);
+                        }
+                    }
+                    form.elements['result'].value = checkboxesChecked.join(', ');
+                }
+            }
+        }		
+
+        
+    </script>
+</body>
+
+</html>
